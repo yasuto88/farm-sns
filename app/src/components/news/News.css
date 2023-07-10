@@ -1,0 +1,17 @@
+.news-section {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.news-heading {
+  font-size: 24px;
+  color: black;
+  font-weight: normal;
+  text-align: center;
+  margin: 32px 0;
+}
+
+.news-card-wrapper {
+  height: 400px;
+  overflow-y: scroll;
+}

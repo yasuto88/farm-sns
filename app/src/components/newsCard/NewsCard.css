@@ -1,0 +1,29 @@
+.news-card {
+	border: 1px solid #cccccc;
+	border-radius: 8px;
+	padding: 16px;
+	margin-bottom: 16px;
+  }
+  
+  .news-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+  }
+  
+  .news-date {
+	font-weight: bold;
+	margin-right: 8px;
+  }
+  
+  .news-badge {
+	padding: 4px 8px;
+	background-color: #ff0000;
+	color: #ffffff;
+	border-radius: 4px;
+  }
+  
+  .news-message {
+	color: #666666;
+  }
+  
