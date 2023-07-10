@@ -1,5 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from 'swiper/modules';
 import "swiper/css";
 import 'swiper/css/navigation';
 import { Link } from "react-router-dom";
@@ -19,6 +20,7 @@ export default function FarmCard(props) {
     <div className="farm-card">
       <Swiper
         navigation={true}
+        modules={[Navigation]}
         className="farm-card-swiper"
       >
         <SwiperSlide>

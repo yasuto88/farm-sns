@@ -2,8 +2,12 @@ import React from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore from "swiper";
 import { FaTwitterSquare, FaInstagramSquare } from "react-icons/fa";
 import "./FarmInfoTop.css"
+import { Autoplay, Pagination } from 'swiper/modules';
+
+SwiperCore.use([Autoplay, Pagination]);
 
 export default function FarmInfoTop() {
   return (
@@ -13,6 +17,7 @@ export default function FarmInfoTop() {
           loop={true}
           autoplay={{ delay: 3000 }}
           pagination={true}
+          modules={[Pagination]}
           className="farm-info-swiper"
         >
           <SwiperSlide>
@@ -36,7 +41,7 @@ export default function FarmInfoTop() {
           <SwiperSlide>
             <div className="farm-info-image-wrapper">
               <img
-                src="./images/farm.png"
+                src="./images/farm10.png"
                 alt=""
                 className="farm-info-image"
               />

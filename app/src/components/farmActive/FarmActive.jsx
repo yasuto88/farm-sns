@@ -1,8 +1,13 @@
 import React from 'react'
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css/pagination";
+import SwiperCore from "swiper";
 import "./FarmActive.css"
 import FarmActiveCard from '../farmActiveCard/FarmActiveCard';
+import { Autoplay, Pagination } from 'swiper/modules';
+
+SwiperCore.use([Autoplay, Pagination]);
 
 export default function FarmActive() {
   return (
@@ -12,6 +17,7 @@ export default function FarmActive() {
         loop={true}
         autoplay={{ delay: 3000 }}
         pagination={true}
+        modules={[Pagination]}
         className="farm-active-card-swiper"
       >
         <SwiperSlide>
