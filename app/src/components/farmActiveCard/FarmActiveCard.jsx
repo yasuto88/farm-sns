@@ -7,7 +7,7 @@ export default function FarmActiveCard(props) {
     <div className="farm-active-card">
       <div className="farm-active-heading">
         <img
-          src="./images/design_900.jpg"
+          src="./images/farm1.png"
           alt=""
           className="farm-active-image"
         />
@@ -15,7 +15,7 @@ export default function FarmActiveCard(props) {
         <span className="farm-activity-time-date">{farmActiveDate}</span>
       </div>
       <div className="farm-active-status-image">
-        <img src="./images/design_900.jpg" alt="活動画像" />
+        <img src="./images/farm2.png" alt="活動画像" />
       </div>
       <p className="farm-active-description">{farmActiveDesc}</p>
       <a href="farm-details.html" className="farm-activity-more-button">

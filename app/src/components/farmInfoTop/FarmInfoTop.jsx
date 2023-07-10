@@ -18,7 +18,7 @@ export default function FarmInfoTop() {
           <SwiperSlide>
             <div className="farm-info-image-wrapper">
               <img
-                src="./images/design_900.jpg"
+                src="./images/farm6.png"
                 alt=""
                 className="farm-info-image"
               />
@@ -27,7 +27,7 @@ export default function FarmInfoTop() {
           <SwiperSlide>
             <div className="farm-info-image-wrapper">
               <img
-                src="./images/pexels-christina-morillo-1181243.jpg"
+                src="./images/farm7.png"
                 alt=""
                 className="farm-info-image"
               />
@@ -36,7 +36,7 @@ export default function FarmInfoTop() {
           <SwiperSlide>
             <div className="farm-info-image-wrapper">
               <img
-                src="./images/osaka_thum.png"
+                src="./images/farm.png"
                 alt=""
                 className="farm-info-image"
               />

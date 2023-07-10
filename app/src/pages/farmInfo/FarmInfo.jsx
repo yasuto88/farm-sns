@@ -1,4 +1,5 @@
 import React from "react";
+import "./FarmInfo.css"
 import TopBar from "../../components/topbar/TopBar";
 import FarmInfoTop from "../../components/farmInfoTop/FarmInfoTop"
 import Tag from "../../components/tag/Tag";

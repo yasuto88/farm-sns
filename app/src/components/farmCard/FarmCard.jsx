@@ -23,13 +23,13 @@ export default function FarmCard(props) {
       >
         <SwiperSlide>
           <div className="image-wrapper">
-            <img src="./images/design_900.jpg" alt="" className="farm-image" />
+            <img src="./images/farm3.png" alt="" className="farm-image" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="image-wrapper">
             <img
-              src="./images/pexels-christina-morillo-1181243.jpg"
+              src="./images/farm4.png"
               alt=""
               className="farm-image"
             />
@@ -37,7 +37,7 @@ export default function FarmCard(props) {
         </SwiperSlide>
         <SwiperSlide>
           <div className="image-wrapper">
-            <img src="./images/osaka_thum.png" alt="" className="farm-image" />
+            <img src="./images/farm5.png" alt="" className="farm-image" />
           </div>
         </SwiperSlide>
       </Swiper>
