@@ -1,9 +1,10 @@
 import React from "react";
-import "./FarmInfo.css"
+import "./FarmInfo.css";
 import TopBar from "../../components/topbar/TopBar";
-import FarmInfoTop from "../../components/farmInfoTop/FarmInfoTop"
+import FarmInfoTop from "../../components/farmInfoTop/FarmInfoTop";
 import Tag from "../../components/tag/Tag";
 import FarmActiveCard from "../../components/farmActiveCard/FarmActiveCard";
+import Chart from "../../components/chart/Chart";
 
 export default function FarmInfo() {
   return (
@@ -12,6 +13,7 @@ export default function FarmInfo() {
       <div className="farm-info-wrapper">
         <FarmInfoTop />
         <div className="farm-page">
+          <Chart />
           <div className="farm-page-content">
             <h2 className="farm-page-section-title">農業概要</h2>
             <p className="farm-page-description">

@@ -61,7 +61,7 @@ export default function FarmCard(props) {
           </div>
           <div className="farm-contact">
             <span className="genre-label">ジャンル:</span>
-            <a href="#" className="genre-tag">
+            <a href="https://github.com/" className="genre-tag">
               {farmGenre}
             </a>
           </div>
