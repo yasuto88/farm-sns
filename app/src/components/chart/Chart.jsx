@@ -1,5 +1,9 @@
 import React from "react";
+<<<<<<< HEAD
 
+=======
+import { collection, getDocs } from 'firebase/firestore';
+>>>>>>> 991617bb20040464dc9ac7797815d63ebc8c19df
 import {
   Chart as ChartJS,
   CategoryScale,
