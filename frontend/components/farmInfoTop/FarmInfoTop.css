@@ -1,0 +1,96 @@
+.farm-info-top {
+  width: 100%;
+  display: flex;
+}
+
+.farm-info-swiper-wrapper {
+  width: 50%;
+  height: 400px;
+}
+
+.farm-info-swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.farm-info-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.farm-info-image {
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.farm-info-container {
+  margin: 32px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(215, 215, 215);
+  border-radius: 16px;
+}
+
+.farm-info-content {
+  width: 60%;
+  height: 320px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.farm-info-content h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.farm-info-content p {
+  font-size: 24px;
+  margin: 4px;
+}
+
+.farm-info-content-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.farm-info-content-sns-wrapper {
+  margin-right: 32px;
+}
+
+.farm-info-content-sns-link {
+  color: black;
+  font-size: 48px;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.farm-info-content-sns-link:hover {
+  text-decoration: underline;
+}
+
+.farm-info-content-join-btn {
+  display: block;
+  padding: 10px;
+  background-color: rgb(0, 180, 0);
+  color: white;
+  border: 2px solid rgb(0, 180, 0);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.farm-info-content-join-btn:hover {
+  background-color: white;
+  color: rgb(0, 180, 0);
+}

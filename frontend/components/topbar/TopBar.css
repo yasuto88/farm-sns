@@ -1,0 +1,104 @@
+.topbarContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
+  background-color: rgba(210, 210, 210, 0.4);
+  backdrop-filter: blur(8px);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbarLeft {
+  padding-left: 32px;
+  font-size: 32px;
+  color: black;
+}
+
+.topbarCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar-container {
+  display: flex;
+}
+
+.search-input-container {
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: blur(8px);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  padding: 0 16px;
+}
+
+.search-input {
+  padding: 8px;
+  margin-right: 8px;
+  width: 360px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 16px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.search-input::placeholder {
+  color: rgba(0, 0, 0, 0.555); /* placeholderの色を灰色に設定 */
+}
+
+.search-button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: rgb(0, 180, 0);
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-right: 8px;
+}
+
+.tune-button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: rgb(0, 180, 0);
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: rgb(0, 128, 0);
+}
+
+.tune-button:hover {
+  background-color: rgb(0, 128, 0);
+}
+
+.topbarRight {
+  padding-right: 32px;
+}
+
+.btn-create-farm {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  background-color: rgb(0, 180, 0);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  /* font-size: 8px; */
+}
+
+.btn-create-farm:hover {
+  background-color: rgb(0, 128, 0);
+}

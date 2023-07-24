@@ -1,0 +1,54 @@
+.farm-active-card {
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 8px;
+  width: 80%;
+}
+
+.farm-active-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 8px;
+}
+
+.farm-active-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.farm-active-title {
+  font-size: 16px;
+}
+
+.farm-activity-time-date {
+  color: #333333;
+}
+
+.farm-active-status-image img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.farm-active-description {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 4px;
+}
+
+.farm-activity-more-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: rgb(0, 180, 0);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.farm-activity-more-button :hover {
+  background-color: rgb(0, 128, 0);
+}

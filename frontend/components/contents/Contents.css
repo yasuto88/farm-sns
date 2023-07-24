@@ -1,0 +1,46 @@
+.contents-wrapper {
+  width: 20%;
+  margin-top: 20px;
+}
+
+.login-form-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.farm-operation-button-heading {
+  font-size: 24px;
+  color: black;
+  font-weight: normal;
+  padding-left: 24px;
+}
+
+.farm-operation-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  gap: 10px;
+}
+
+.farm-operation-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  width: 80%;
+  background-color: rgb(0, 180, 0);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.farm-operation-button:hover {
+  background-color: rgb(0, 128, 0);
+  cursor: pointer;
+}
+
+.farm-operation-button-icon {
+  padding-right: 8px;
+}

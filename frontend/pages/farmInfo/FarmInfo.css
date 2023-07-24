@@ -1,0 +1,72 @@
+.farm-info-wrapper {
+  margin-top: 64px;
+}
+
+.farm-page {
+  max-width: 1000px;
+  margin: 32px auto;
+  padding: 24px;
+  background-color: #f2f2f2;
+}
+
+.farm-page-content {
+  margin-bottom: 64px;
+  margin-left: 32px;
+}
+
+.farm-page-section-title {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.farm-page-description {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.farm-info-table {
+  width: 60%;
+  border-collapse: collapse;
+}
+
+.farm-info-table th,
+.farm-info-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.farm-info-table th {
+  background-color: rgb(0, 180, 0);
+  color: #ffffff;
+}
+
+.farm-info-table td {
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+.tag-td {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.farm-info-table th:nth-child(1),
+.farm-info-table td:nth-child(1) {
+  width: 80px;
+  border-right: 1px solid #cccccc;
+}
+
+.farm-info-table tr:nth-child(even) td {
+  background-color: #e5e5e5;
+}
+
+.farm-page-farm-active-card-container {
+  display: flex;
+}
+
+.farm-page-farm-active-card-wrapper {
+  width: 360px;
+}
